@@ -5,7 +5,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Fresh APPELSIN</title>
+        <title >Fresh APPELSIN</title>
+        <link rel="stylesheet" href="/style.css"/>
       </Head>
       <div class="p-4 mx-auto max-w-screen-md">
         <img
@@ -13,7 +14,7 @@ export default function Home() {
           class="w-32 h-32"
           alt="the fresh logo: a sliced lemon dripping with juice"
         />
-        <p class="my-6">
+        <p class="my-6 color">
           Welcome to `fresh`. Try updating this message in the ./routes/index.tsx
           file, and refresh.
         </p>
